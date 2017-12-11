@@ -108,7 +108,7 @@ The test are written in the order of the objective listed above.
 5. Created array of misspelled words
 6. Verified test with 0 misspelled words in array
 
-#### Objective 6 Hovering (partial)
+#### Objective 6 Hovering and Clicking (partial)
 
 1. Created list of list item IDs in footer area
 2. Scrolled to each link inside list item
@@ -116,7 +116,5 @@ The test are written in the order of the objective listed above.
 4. Verified test by comparing color code of link after hover
 
 
-
-#### Objective 7 Clicking
-#### Objective 8 Compare CSS
+#### Objective 7 Compare CSS Styling
 
