@@ -61,14 +61,20 @@ The test are written in the order of the objective listed above.
 
 1. Each phone number element was selected by href address.
 2. The text for the element was tested against a Regular Expression
+
     a. ^(?:\+?1[.]?)?\(?([0-9]{3})\)?[.]?([0-9]{3})[.]?([0-9]{4})$/
+
     b. allows for the following pattern: 1.###.####.####
+
     c. test was verified with true response
 
 3. Elements with price data where selected with the p element and class name
 4. The text was checked against a Regular Expression
+
     a. (?:[$])\s*\d+(?:\.\d{2})?
+
     b. allows for the following pattern(s): $## or $##.##
+
     c. test was verified with true response
 
 #### Objective 3 Form Validation
