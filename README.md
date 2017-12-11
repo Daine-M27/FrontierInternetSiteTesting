@@ -53,6 +53,7 @@ Once I was able to console log the item by its selector I chose a relevant test 
 
 The test are written in the order of the objective listed above.
 
+
 #### Objective 1 Images and Graphics
 
 1. For this objective I selected each image or graphic by ID or class name and recorded the background image URL.
