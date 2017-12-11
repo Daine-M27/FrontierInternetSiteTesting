@@ -4,7 +4,7 @@
 
 *assumes NPM
 
-1. clone or download repository and open folder in the terminal
+1. Clone or download repository and open folder in the terminal
 2. Run this command
 
 `npm init`
@@ -19,19 +19,28 @@
 
 
 
-# Testing Explanation
+## Testing Explanation
 
 ### Objectives
 
 1	Making sure images and graphics are all visible
+
 2	Making sure prices, phone numbers, and timer are formatted correctly (using regex)
+
 3	Making sure form is validated
+
 	a.	submit form without entering any information
+
 	b.	submit form by entering incorrect information
+
 	c.	submit form by entering valid information
+
 4	Making sure links direct correctly
+
 5	Making sure text is correct / spelling is correct
+
 6	Making sure JavaScript interactions are working i.e. hovering, clicking, animations
+
 7	Making sure CSS is consistent across similar elements i.e. link styling, button styling
 
 
@@ -50,4 +59,19 @@ The test are written in the order of the objective listed above.
 
 #### Objective 2 Price and Phone Number format
 
+1. Each phone number element was selected by href address.
+2. The text for the element was tested against a Regular Expression
+    a. ^(?:\+?1[.]?)?\(?([0-9]{3})\)?[.]?([0-9]{3})[.]?([0-9]{4})$/
+    b. allows for the following pattern: 1.###.####.####
+    c. test was verified with true response
+
+3. Elements with price data where selected with the p element and class name
+4. The text was checked against a Regular Expression
+    a. (?:[$])\s*\d+(?:\.\d{2})?
+    b. allows for the following pattern(s): $## or $##.##
+    c. test was verified with true response
+
+#### Objective 3 Form Validation
+
 1.
+

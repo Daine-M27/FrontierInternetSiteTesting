@@ -232,6 +232,7 @@ describe('price, phone number', function(){
             testNumber = pattern.test(phoneNumber);
             //console.log(testNumber);
         }
+        //check both instances for match then test with REGEX
         if(numberText[0] === numberText[1]){
             validatePhoneNumber(numberText[0])
 
