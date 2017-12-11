@@ -68,6 +68,7 @@ The test are written in the order of the objective listed above.
 
     c. test was verified with true response
 
+
 3. Elements with price data where selected with the p element and class name
 4. The text was checked against a Regular Expression
 
@@ -79,5 +80,40 @@ The test are written in the order of the objective listed above.
 
 #### Objective 3 Form Validation
 
-1.
+1. The form was selected by class Name
+2. Submit button selected by ID
+3. Each test case was tested on a separate criteria
+
+    a. Correct information verified with new URL of results page
+
+    b. Missing information verified by presence of text in error message
+
+    c. Incorrect information verified by no response after waiting period
+
+#### Objective 4 Link Direction
+
+1. Created an array of href values from link element selector
+2. Looped through each link
+3. Verified with HTTP status
+
+#### Objective 5 Spelling
+
+1. Created an array of element selectors that contain text
+2. Parsed text strings into words
+3. Filtered non text from words list with Regular Expression
+4. Utilized SpellChecker to loop through words list from site
+5. Created array of misspelled words
+6. Verified test with 0 misspelled words in array
+
+#### Objective 6 Hovering (partial)
+
+1. Created list of list item IDs in footer area
+2. Scrolled to each link inside list item
+3. Moved mouse to link item and paused for hover effect
+4. Verified test by comparing color code of link after hover
+
+
+
+#### Objective 7 Clicking
+#### Objective 8 Compare CSS
 
