@@ -8,7 +8,7 @@
 
 2. Navigate to folder and run this command
 
-`npm init`
+`npm install`
 
 3. Start server with this command
 
