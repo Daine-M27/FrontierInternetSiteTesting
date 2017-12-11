@@ -12,7 +12,7 @@
 
 3. Start server with this command
 
-`$ java -jar /your/download/directory/selenium-server-standalone-3.5.3.jar`
+`$ java -jar /your/download/directory/selenium-server-standalone-3.8.1.jar`
 
 4. Run test with
 
