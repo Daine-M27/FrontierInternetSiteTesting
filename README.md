@@ -23,11 +23,11 @@
 
 ### Objectives
 
-1	Making sure images and graphics are all visible
+1.	Making sure images and graphics are all visible
 
-2	Making sure prices, phone numbers, and timer are formatted correctly (using regex)
+2.	Making sure prices, phone numbers, and timer are formatted correctly (using regex)
 
-3	Making sure form is validated
+3.	Making sure form is validated
 
 	a.	submit form without entering any information
 
@@ -35,13 +35,13 @@
 
 	c.	submit form by entering valid information
 
-4	Making sure links direct correctly
+4.	Making sure links direct correctly
 
-5	Making sure text is correct / spelling is correct
+5.	Making sure text is correct / spelling is correct
 
-6	Making sure JavaScript interactions are working i.e. hovering, clicking, animations
+6.	Making sure JavaScript interactions are working i.e. hovering, clicking, animations
 
-7	Making sure CSS is consistent across similar elements i.e. link styling, button styling
+7.	Making sure CSS is consistent across similar elements i.e. link styling, button styling
 
 
 ### My process
