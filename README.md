@@ -5,7 +5,8 @@
 *assumes NPM
 
 1. Clone or download repository and open folder in the terminal
-2. Run this command
+
+2. Navigate to folder and run this command
 
 `npm init`
 
@@ -47,6 +48,8 @@
 ### My process
 I began each test by locating the element to be tested with google chromes developer tools and finding the best selector to use with WebdriverIO.
 Once I was able to console log the item by its selector I chose a relevant test criteria for its objective.
+
+
 
 The test are written in the order of the objective listed above.
 
